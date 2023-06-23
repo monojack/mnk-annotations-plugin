@@ -3,7 +3,7 @@
   "author": "unknown",
   "description": "Validates with custom rules.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/plugin.js",
   "type": "module",
   "scripts": {
