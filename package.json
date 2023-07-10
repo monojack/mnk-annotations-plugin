@@ -1,9 +1,9 @@
 {
-  "name": "annotations-plugin",
+  "name": "prv-annotations-plugin",
   "author": "unknown",
   "description": "Validates with custom rules.",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "dist/plugin.js",
   "type": "module",
   "scripts": {
