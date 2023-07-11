@@ -3,7 +3,7 @@ import { noEmptyAnnotations } from "./rules/1-example.js";
 
 export default definePlugin({
   id: "PAP",
-  name: "pap",
+  name: "prv-annotations-plugin",
   displayName: "Private Annotations Plugin",
   description: "My first private plugin!",
   rules: {
