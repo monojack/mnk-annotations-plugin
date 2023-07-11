@@ -14,7 +14,6 @@
     "debug": "monokle-plugin-toolkit build --debug"
   },
   "dependencies": {
-    "@monokle/plugin-toolkit": "^0.1.0",
-    "nanoid": "^4.0.2"
+    "@monokle/plugin-toolkit": "^0.1.0"
   }
 }

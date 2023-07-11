@@ -1,5 +1,4 @@
 import { defineRule } from "@monokle/plugin-toolkit";
-import { nanoid } from 'nanoid'
 
 /**
  * A basic example that checks if a resource has annotations
@@ -14,7 +13,7 @@ export const noEmptyAnnotations = defineRule({
       const hasAnnotations = annotations.length > 0;
 
       if (!hasAnnotations) {
-        report(resource, { path: "metadata.annotations", message: `unique id: ${nanoid()}`  });
+        report(resource, { path: "metadata.annotations", message: `unique id: 12312341234`  });
       }
     });
   },
