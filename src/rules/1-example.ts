@@ -13,7 +13,7 @@ export const noEmptyAnnotations = defineRule({
       const hasAnnotations = annotations.length > 0;
 
       if (!hasAnnotations) {
-        report(resource, { path: "metadata.annotations", message: `unique id: 12312341234`  });
+        report(resource, { path: "metadata.annotations" });
       }
     });
   },
